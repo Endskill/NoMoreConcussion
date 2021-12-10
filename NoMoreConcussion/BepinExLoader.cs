@@ -20,7 +20,7 @@ namespace NoMoreConcussion
     }
 
     [HarmonyPatch(typeof(FPS_RecoilSystem))]
-    public class NoMoreConclussionPatch
+    public class NoMoreConcussionPatch
     {
         [HarmonyPatch(nameof(FPS_RecoilSystem.ApplyRecoil))]
         [HarmonyPostfix]
